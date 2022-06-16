@@ -1,6 +1,5 @@
 <template>
     <div class="bg">
-        <div class="triangle_shape"></div>
         <div class="container">
             <div class="uptext">MENS GROOMING</div>
             <h2>Services</h2>
@@ -93,9 +92,10 @@ export default {
     margin-top: var(--main-margin-y);
 }
 
-.triangle_shape {
+.bg:before {
     position: absolute;
     display: block;
+    content: '';
     background-color: white;
     height: 100px;
     width: 100%;
