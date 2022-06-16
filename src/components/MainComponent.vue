@@ -3,6 +3,7 @@
         <jumbotronSection/>
         <meetSection/>
         <servicesSection/>
+        <productsSection/>
     </main>
 </template>
 
@@ -11,6 +12,7 @@
 import jumbotronSection from '../sections/jumbotronSection.vue'
 import meetSection from '../sections/meetSection.vue'
 import servicesSection from '../sections/servicesSection.vue'
+import productsSection from '../sections/productsSection.vue'
 
 export default {
 
@@ -28,6 +30,7 @@ export default {
         jumbotronSection,
         meetSection,
         servicesSection,
+        productsSection,
     }
 
 }

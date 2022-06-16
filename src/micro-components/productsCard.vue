@@ -2,7 +2,7 @@
     <div class="card">
         <img :src="require('@/assets/img/' + card.img + '')" :alt="card.img">
         <h3>{{card.title}}</h3>
-        <p>{{card.description}}</p>
+        <p>{{card.price}}</p>
     </div>
 </template>
 
@@ -27,24 +27,26 @@ export default {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 0 42px;
+    margin: 0 30px;
     border: none;
     background: none;
 }
 
 img {
-    height: 6.875rem;
+    height: 21.25rem;
     margin-bottom: var(--main-margin-y);
     margin-top: var(--main-margin-y);
 }
 
 h3 {
     color: var(--primary-color);
+    margin-bottom: 1rem;
 }
 
 p {
     font-size: 1.125rem;
     font-weight: 200;
+    color: var(--primary-color);
 }
 
 </style>

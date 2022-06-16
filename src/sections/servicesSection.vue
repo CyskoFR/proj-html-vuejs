@@ -6,7 +6,7 @@
             <div class="row">
                 <card class="col" :card="card" v-for="card in cards" :key="card.name"></card>
             </div>
-            <mainButton class="button" :button="meetButton"/>
+            <mainButton class="button" :button="button"/>
         </div>
     </div>
 </template>
@@ -22,7 +22,7 @@ export default {
 
     data() {
         return {
-            meetButton: {
+            button: {
                 text: 'READ ABOUT OUR SERVICES',
                 link: '#',
             },
@@ -75,6 +75,7 @@ export default {
     align-items: center;
     width: var(--main-container-width);
     height: 990px;
+    padding-bottom: 160px;
 }
 
 .row {

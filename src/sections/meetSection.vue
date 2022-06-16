@@ -51,6 +51,7 @@ export default {
     align-items: center;
     width: var(--main-container-width);
     height: 555px;
+    padding-bottom: 80px;
 }
 
 .uptext {
