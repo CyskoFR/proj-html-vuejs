@@ -1,5 +1,5 @@
 <template>
-    <div class="main_button">{{button.text}}</div>
+    <a class="main_button" :href="button.link">{{button.text}}</a>
 </template>
 
 <script>
@@ -24,9 +24,9 @@ export default {
     color: var(--primary-color);
     width: fit-content;
     padding: 12px 36px;
-    font-size: .875rem;
     font-weight: 600;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .main_button:hover {

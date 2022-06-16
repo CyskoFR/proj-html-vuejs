@@ -1,6 +1,6 @@
 <template>
-    <div class="jumbo_bg">
-        <div class="jumbo_container container">
+    <div class="bg">
+        <div class="container">
             <div class="row w-100">
                 <div class="col-6 col-text">
                     <h1>Barber Shop</h1>
@@ -29,6 +29,7 @@ export default {
         return {
             jumboButton: {
                 text: 'LEARN MORE',
+                link: '#',
             }
         }
     },
@@ -39,22 +40,20 @@ export default {
 
     }
 
-    
-
 }
 
 </script>
 
 <style lang="scss" scoped>
 
-.jumbo_bg {
+.bg {
     width: 100%;
     background-image: url(../assets/img/avadabarbers-homepage-hero-bg.jpg);
     background-position: top;
     background-size: cover;
 }
 
-.jumbo_container {
+.container {
     display: flex;
     align-items: center;
     width: var(--main-container-width);
@@ -76,7 +75,8 @@ export default {
         width: 38%;
         background-color: var(--primary-color);
         opacity: 1;
-        margin: 35px 0;
+        margin: 0;
+        margin-bottom: var(--main-margin-bottom);
     }
 
     p {
