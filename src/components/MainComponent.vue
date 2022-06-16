@@ -2,13 +2,15 @@
     <main>
         <jumbotronSection/>
         <meetSection/>
+        <servicesSection/>
     </main>
 </template>
 
 <script>
 
-import jumbotronSection from '../micro-components/jumbotronSection.vue'
-import meetSection from '../micro-components/meetSection.vue'
+import jumbotronSection from '../sections/jumbotronSection.vue'
+import meetSection from '../sections/meetSection.vue'
+import servicesSection from '../sections/servicesSection.vue'
 
 export default {
 
@@ -25,6 +27,7 @@ export default {
     components: {
         jumbotronSection,
         meetSection,
+        servicesSection,
     }
 
 }

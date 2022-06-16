@@ -1,0 +1,106 @@
+<template>
+    <div class="bg">
+        <div class="triangle_shape"></div>
+        <div class="container">
+            <div class="uptext">MENS GROOMING</div>
+            <h2>Services</h2>
+            <div class="row">
+                <card class="col" :card="card" v-for="card in cards" :key="card.name"></card>
+            </div>
+            <mainButton class="button" :button="meetButton"/>
+        </div>
+    </div>
+</template>
+
+<script>
+
+import mainButton from '../nano-components/mainButton.vue'
+import card from '../micro-components/card.vue'
+
+export default {
+
+    name: 'servicesSection',
+
+    data() {
+        return {
+            meetButton: {
+                text: 'READ ABOUT OUR SERVICES',
+                link: '#',
+            },
+            cards: [
+                {
+                    name: 'obj-1',
+                    img: "avadabarbers-trimcut-icon-before.png",
+                    title: 'Trim & Cut',
+                    description: 'Avada Barbers are experts in the lickety split trim and hair cut. Quick but careful and ridiculously good looking.',
+                },
+                {
+                    name: 'obj-2',
+                    img: 'avadabarbers-washndry-icon.png',
+                    title: 'Wash & Dry',
+                    description: 'Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.',
+                },
+                {
+                    name: 'obj-3',
+                    img: 'avadabarbers-beardtrim-icon.png',
+                    title: 'Beard Tidy',
+                    description: 'Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers.',
+                },
+            ]
+        }
+    },
+
+    components: {
+        
+        mainButton,
+        card,
+
+    }
+
+}
+
+</script>
+
+<style lang="scss" scoped>
+
+.bg {
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: var(--main-container-width);
+    height: 990px;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: var(--main-margin-y);
+    margin-top: var(--main-margin-y);
+}
+
+.uptext {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.button {
+    margin-top: var(--main-margin-y);
+}
+
+.triangle_shape {
+    position: absolute;
+    display: block;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    top: -99px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+</style>

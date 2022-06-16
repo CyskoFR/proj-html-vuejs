@@ -76,7 +76,7 @@ export default {
         background-color: var(--primary-color);
         opacity: 1;
         margin: 0;
-        margin-bottom: var(--main-margin-bottom);
+        margin-bottom: var(--main-margin-y);
     }
 
     p {

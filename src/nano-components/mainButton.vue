@@ -3,6 +3,7 @@
 </template>
 
 <script>
+
 export default {
 
     name: 'mainButton',
@@ -12,6 +13,7 @@ export default {
     }
 
 }
+
 </script>
 
 <style lang="scss" scoped>

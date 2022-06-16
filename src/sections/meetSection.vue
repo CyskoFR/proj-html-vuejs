@@ -56,7 +56,6 @@ export default {
 .uptext {
     color: var(--primary-color);
     font-weight: 600;
-    margin-bottom: 1rem;
 }
 
 </style>
