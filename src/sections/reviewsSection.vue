@@ -67,9 +67,8 @@ export default {
     justify-content: center;
     align-items: center;
     width: var(--main-container-width);
-    height: 990px;
-    padding-bottom: 160px;
-    margin-top: 460px;
+    height: 1230px;
+    padding-top: 540px;
 }
 
 .row {
@@ -91,7 +90,7 @@ export default {
     position: absolute;
     display: block;
     content: '';
-    background-color: red;
+    background-color: white;
     height: 100px;
     width: 100%;
     bottom: -99px;

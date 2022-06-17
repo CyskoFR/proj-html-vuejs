@@ -5,6 +5,7 @@
         <servicesSection/>
         <productsSection/>
         <reviewsSection/>
+        <recentBlogSection/>
     </main>
 </template>
 
@@ -15,6 +16,7 @@ import meetSection from '../sections/meetSection.vue'
 import servicesSection from '../sections/servicesSection.vue'
 import productsSection from '../sections/productsSection.vue'
 import reviewsSection from '../sections/reviewsSection.vue'
+import recentBlogSection from '../sections/recentBlogSection.vue'
 
 export default {
 
@@ -34,6 +36,7 @@ export default {
         servicesSection,
         productsSection,
         reviewsSection,
+        recentBlogSection,
     }
 
 }

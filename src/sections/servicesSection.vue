@@ -4,7 +4,7 @@
             <div class="uptext">MENS GROOMING</div>
             <h2>Services</h2>
             <div class="row">
-                <card class="col" :card="card" v-for="card in cards" :key="card.name"></card>
+                <cardMain class="col" :card="card" v-for="card in cards" :key="card.name"></cardMain>
             </div>
             <mainButton class="button" :button="button"/>
         </div>
@@ -14,7 +14,7 @@
 <script>
 
 import mainButton from '../nano-components/mainButton.vue'
-import card from '../micro-components/card.vue'
+import cardMain from '../micro-components/cardMain.vue'
 
 export default {
 
@@ -52,7 +52,7 @@ export default {
     components: {
         
         mainButton,
-        card,
+        cardMain,
 
     }
 

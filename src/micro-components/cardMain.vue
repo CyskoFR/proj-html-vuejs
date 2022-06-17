@@ -10,7 +10,7 @@
 
 export default {
 
-    name: 'mainButton',
+    name: 'cardMain',
 
     props: {
         card: Object,

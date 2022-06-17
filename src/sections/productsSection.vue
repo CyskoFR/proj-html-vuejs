@@ -128,6 +128,7 @@ export default {
     display: flex;
     justify-content: center;
     width: 100%;
+    z-index: 9;
 }
 
 </style>
