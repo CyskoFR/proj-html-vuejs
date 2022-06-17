@@ -57,7 +57,7 @@ export default {
     display: flex;
     align-items: center;
     width: var(--main-container-width);
-    min-height: 1080px;
+    min-height: 960px;
 }
 
 .col-text {
