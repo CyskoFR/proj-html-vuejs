@@ -97,6 +97,7 @@ export default {
     }
     .logo {
         max-width: 180px;
+        margin-bottom: 0;
     }
 }
 
