@@ -8,6 +8,9 @@
             </div>
             <mainButton class="button" :button="button"/>
         </div>
+        <div class="featured_section">
+            <featuredCard :featuredCard="featuredCard" :key="featuredCard.title"/>
+        </div>
     </div>
 </template>
 
@@ -15,6 +18,7 @@
 
 import mainButton from '../nano-components/mainButton.vue'
 import productsCard from '../micro-components/productsCard.vue'
+import featuredCard from '../micro-components/featuredCard.vue'
 
 export default {
 
@@ -51,7 +55,13 @@ export default {
                     title: 'Straight Razor',
                     price: '$30.00',
                 },
-            ]
+            ],
+            featuredCard: {
+                img: 'shaving_butter-800x800.png',
+                uptext: 'THIS MONTHS FEATURED PRODUCT',
+                title: 'Shaving Butter',
+                description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque assumenda aliquid et exercitationem inventore nobis excepturi consequuntur! Esse veniam, voluptates eius magnam est ut libero.',
+            },
         }
     },
 
@@ -59,6 +69,7 @@ export default {
         
         mainButton,
         productsCard,
+        featuredCard,
 
     }
 
@@ -109,6 +120,14 @@ export default {
     width: 100%;
     top: -99px;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.featured_section {
+    position: absolute;
+    bottom: -415px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 </style>
