@@ -67,7 +67,7 @@ export default {
     justify-content: center;
     align-items: center;
     width: var(--main-container-width);
-    height: 1230px;
+    min-height: 1230px;
     padding-top: 540px;
 }
 

@@ -93,8 +93,9 @@ export default {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 990px;
+    min-height: 990px;
     padding-bottom: 100px;
+    text-align: center;
 }
 
 .row {

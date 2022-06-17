@@ -57,7 +57,7 @@ export default {
     display: flex;
     align-items: center;
     width: var(--main-container-width);
-    height: 1080px;
+    min-height: 1080px;
 }
 
 .col-text {
@@ -82,7 +82,6 @@ export default {
     p {
         color: grey;
         font-size: 1.25rem;
-        font-weight: 200;
         margin-bottom: 35px;
     }
 }

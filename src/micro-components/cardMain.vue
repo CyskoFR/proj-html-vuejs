@@ -44,7 +44,6 @@ h3 {
 
 p {
     font-size: 1.125rem;
-    font-weight: 200;
 }
 
 </style>

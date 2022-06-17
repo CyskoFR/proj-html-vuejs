@@ -73,7 +73,8 @@ export default {
     justify-content: center;
     align-items: center;
     width: var(--main-container-width);
-    height: 1080px;
+    min-height: 1000px;
+    padding-top: 80px;
 }
 
 .row {

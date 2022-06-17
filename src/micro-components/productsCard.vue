@@ -33,7 +33,7 @@ export default {
 }
 
 img {
-    height: 21.25rem;
+    max-height: 21.25rem;
     margin-bottom: var(--main-margin-y);
     margin-top: var(--main-margin-y);
 }
@@ -45,7 +45,6 @@ h3 {
 
 p {
     font-size: 1.125rem;
-    font-weight: 200;
     color: var(--primary-color);
 }
 

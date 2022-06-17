@@ -4,8 +4,8 @@
             <img class="header_logo" src="../assets/img/avadabarbers-logo-x1.png" alt="avadabarbers-logo-x1.png">
             <nav class="header_nav">
                 <ul>
-                    <li><i class="fa-solid fa-cart-shopping"></i></li>
-                    <li><i class="fa-solid fa-bars"></i></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
                 </ul>
             </nav>
         </div>
@@ -42,9 +42,11 @@ header {
     margin: 0;
     li {
         list-style: none;
-        color: white;
         margin: 0 12px;
         font-size: 20px;
+        a {
+            color: white;
+        }
     }
 }
 

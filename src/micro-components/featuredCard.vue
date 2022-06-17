@@ -46,13 +46,13 @@ export default {
     display: flex;
     border: none;
     background: var(--dark-bg);
-    width: var(--main-container-width);
+    max-width: var(--main-container-width);
     border-top: 4px solid var(--primary-color);
     max-height: 456px;
 }
 
 img {
-    width: 456px;
+    max-width: 456px;
     background-image: url(../assets/img/avadabarbers-cta-background.jpg);
     background-position: center;
     background-size: cover;
@@ -77,7 +77,6 @@ h2 {
 p {
     color: var(--secondary-color);
     font-size: 1.125rem;
-    font-weight: 200;
     margin-bottom: 30px;
 }
 

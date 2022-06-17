@@ -34,7 +34,6 @@ export default {
 
 p {
     font-size: 1.125rem;
-    font-weight: 300;
     margin: 0;
 }
 

@@ -50,7 +50,7 @@ export default {
     justify-content: center;
     align-items: center;
     width: var(--main-container-width);
-    height: 555px;
+    min-height: 555px;
     padding-bottom: 80px;
 }
 
