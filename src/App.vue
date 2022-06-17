@@ -1,4 +1,5 @@
 <template>
+<!-- DESKTOP ONLY, No MediaQueries/reponsiveness added -->
   <div id="app">
     <HeaderComponent/>
     <MainComponent/>
